@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+
+        <item
+            android:title="Actions"
+            android:enabled="false"
+            android:checkable="false" />
+
+        <item
+            android:id="@+id/nav_restart"
+            android:icon="@drawable/ic_refresh_black"
+            android:title="Restart" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_cloud_upload_black"
+            android:title="Share Plan" />
+        <item
+            android:id="@+id/nav_open_share"
+            android:icon="@drawable/ic_cloud_download_black"
+            android:title="Open Shared Plan" />
+        <item
+            android:id="@+id/nav_save"
+            android:icon="@drawable/ic_save_black"
+            android:title="Save Plan" />
+        <item
+            android:id="@+id/nav_load"
+            android:icon="@drawable/ic_open_black"
+            android:title="Load Plan" />
+    </group>
+
+    <group>
+
+        <item
+            android:title="Settings"
+            android:enabled="false"
+            android:checkable="false" />
+
+        <item
+            android:id="@+id/nav_marker_settings"
+            android:title="Use Lazy Markers"
+            android:icon="@drawable/ic_marker_black"
+            app:actionLayout="@layout/menu_switch" />
+    </group>
+
+</menu>

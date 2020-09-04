@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/placeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:text="place, UK"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/planText"
+        android:layout_width="548dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="54dp"
+        android:layout_marginLeft="20dp"
+        android:text="text" />
+
+    <TextView
+        android:id="@+id/accuracyLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/placeTitle"
+        android:layout_toStartOf="@+id/accuracy"
+        android:text="Accuracy"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="28dp"
+        android:layout_toLeftOf="@+id/accuracy" />
+
+    <TextView
+        android:id="@+id/accuracy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/placeTitle"
+        android:text="100%  "
+        android:textColor="@color/red"
+        android:textSize="24dp"
+        android:layout_alignParentRight="true" />
+
+    <ListView
+        android:id="@+id/removalList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/planText"
+        android:background="@color/grey_25"/>
+</RelativeLayout>

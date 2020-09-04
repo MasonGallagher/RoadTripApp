@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/account_background">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="176dp"
+        android:background="@drawable/rounded_button"
+        android:text="start"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/btn_open"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="124dp"
+        android:background="@drawable/rounded_button"
+        android:text="Open"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/btn_shared"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/rounded_button"
+        android:text="OPEN SHARED"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

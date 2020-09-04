@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_clear"
+        android:icon="@drawable/ic_clear_all"
+        android:title="Clear"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_food"
+        android:icon="@drawable/ic_food_icon"
+        android:title="Food Places"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_lodge"
+        android:icon="@drawable/ic_hotel_2_icon"
+        android:title="Lodge Places"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_attraction"
+        android:icon="@drawable/ic_hotel_1_icon"
+        android:title="Attractions"
+        app:showAsAction="ifRoom"/>
+</menu>

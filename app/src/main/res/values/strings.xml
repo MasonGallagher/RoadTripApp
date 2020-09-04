@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">We Go</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_rank">Rank</string>
+    <string name="createdMarkerText">Hello World!</string>
+    <string name="schools">Schools</string>
+    <string name="hospitals">Hospitals</string>
+    <string name="restautants">Restautants</string>
+    <string name="add_more_info">Click the above button to add more places.\nYou can also remove places by swiping them off the page.</string>
+    <string name="title_activity_placeDetail">PlaceDetail</string>
+    <string name="title_activity_login">Login</string>
+    <string name="cancel">Cancel</string>
+    <string name="scheduler_loading">This might take a while…</string>
+    <string name="scheduler_info">This will run in the background so you can come back later.</string>
+    <string name="title_activity_scheduler">Current Schedule</string>
+    <string name="empty_plan_info">To generate a new plan tap the refresh button at the top right of your screen.</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">Closed</string>
+    <string name="share_message_subject">I\'m Sharing My Road Trip Plan With You!</string>
+    <string name="share_message_start">Hey!\nI\'m sharing the plan to my road trip with you. Hope you like what I have planned!\n\n</string>
+    <string name="attractions">Attractions</string>
+    <string name="food">Restaurants</string>
+    <string name="lodge">Hotels</string>
+    <string name="exit_question">Are you sure you want to exit this plan? Make sure you have saved your plan!</string>
+    <string name="share_details">To share your plan, just press the button below, or share the above code with your friends</string>
+    <string name="share_plan">Share with Friends</string>
+    <string name="tap_4_info">Tap for more info</string>
+    <string name="lazy_marker_changed">You need to reload marker for this to take effect.</string>
+</resources>
